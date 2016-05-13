@@ -1,5 +1,5 @@
 {
-  "HELLO": "Hi there!\nI’m the personal bot of the Rosstafarian, an alien pirateer from New York.\n![mike](https://raw.githubusercontent.com/oneross/RossBot/master/img/mike.jpg)\nWant to know more about bots or learn about the Ross? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about the Ross](postback:learn about ross) %[One random fact!](postback:random_fact)",
+  "HELLO": "Hi there!\nI’m the personal bot of the Rosstafarian, an alien pirateer from New York.\n![mike](https://raw.githubusercontent.com/oneross/RossBot/master/img/mike.jpg)\nWant to know more about bots or learn about the Ross? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about the Ross](postback:learn_about_ross) %[One random fact!](postback:random_fact)",
   "TELL HIM": "Let's tweet @ Ross so he knows you're using me like a tin-foil beenie. Here's a tweet that's ready to go: %[Tweet Ross](http://bit.ly/1rossbot-tweet)",
   "I LOVE YOU": "Awh, shucks! I love you too!",
   "CONNECT ME": "",
