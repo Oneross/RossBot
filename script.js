@@ -5,10 +5,6 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
-const elizaScript = require('eliza.js')
-
-var eliza = new ElizaBot();
-
 module.exports = new Script({
     processing: {
         //prompt: (bot) => bot.say('Beep boop...'),
@@ -51,7 +47,7 @@ module.exports = new Script({
                     return bot.say(`I didn't understand that.`).then(() => 'speak');
                 }
 
-                var response = eliza.transform(upperText);
+                var response = scriptRules[upperText];
                 var lines = response.split('\n');
 
                 var p = Promise.resolve();
